@@ -4,7 +4,6 @@
     
 }
 body{
-    
     height: 900vh;
 }
 
@@ -20,7 +19,7 @@ nav.menu-lateral{
     overflow: hidden;
     transition: .5s;
 }
-nav.menu-lateral:hover{
+nav.menu-lateral.expandir{
     width: 250px;
 }
 .btn-expandir{
@@ -40,6 +39,10 @@ ul{
 ul li.item-menu{
     transition: .1s ;
 }
+ul li.ativo{
+    background-color: #FF08;
+}
+
 ul li.item-menu:hover{
     background:#FF08;
 }
@@ -52,7 +55,13 @@ ul li.item-menu a{
     line-height: 30px;
 }
 ul li.item-menu a .txt-link{
+    margin-left: 70px;
+    transition: .5s;
+    opacity: 0;
+}
+nav.menu-lateral.expandir .txt-link {
     margin-left: 20px;
+    opacity: 1;
 }
 ul li.item-menu a icon > i{
     font-size: 30px;
