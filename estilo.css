@@ -69,12 +69,21 @@ ul li.item-menu a icon > i{
     margin-left: 10px;
 }
 
-.minha-img{
-    border-radius: 10px;
+.img-eu{
+    border: 10px;
+    border-color: bisque;
+    
 }
 .spc{
     margin-top: 9%;
 }
+.container-sobre{
+    height: 250px;
+    border-radius: 20px;
+    display: block;
+    font-size: 20px;
+    flex-wrap: wrap;
+}
 .container-form{
-    display:;
+    align-items: center;
 }
