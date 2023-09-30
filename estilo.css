@@ -87,3 +87,6 @@ ul li.item-menu a icon > i{
 .container-form{
     align-items: center;
 }
+.img-form{
+    border-radius: 3em;
+}
