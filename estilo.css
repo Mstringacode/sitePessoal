@@ -78,7 +78,7 @@ ul li.item-menu a icon > i{
     margin-top: 9%;
 }
 .container-sobre{
-    height: 250px;
+    height: auto;
     border-radius: 20px;
     display: block;
     font-size: 20px;
@@ -89,4 +89,15 @@ ul li.item-menu a icon > i{
 }
 .img-form{
     border-radius: 3em;
+}
+.rec{
+    color: azure;
+    font-size: 30px;
+}
+.texto-rec {
+    color:azure ;
+}
+#footer-box{
+    margin-top: 1em;
+    background-color: #0464ca;
 }
