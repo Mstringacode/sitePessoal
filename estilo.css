@@ -5,6 +5,7 @@
 }
 body{
     height: 900vh;
+   
 }
 
 nav.menu-lateral{
@@ -68,6 +69,12 @@ ul li.item-menu a icon > i{
     margin-left: 10px;
 }
 
-.img-eu{
-    height: 10px;
+.minha-img{
+    border-radius: 10px;
+}
+.spc{
+    margin-top: 9%;
+}
+.container-form{
+    display:;
 }
