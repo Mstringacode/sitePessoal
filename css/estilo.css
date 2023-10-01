@@ -4,7 +4,7 @@
     
 }
 body{
-    height: 900vh;
+    height: 100vh;
    
 }
 
@@ -94,10 +94,14 @@ ul li.item-menu a icon > i{
     color: azure;
     font-size: 30px;
 }
-.texto-rec {
+.texto {
     color:azure ;
+    font-size: 20px;
 }
 #footer-box{
     margin-top: 1em;
     background-color: #0464ca;
+}
+.texto2{
+    font-size: 20px;
 }
